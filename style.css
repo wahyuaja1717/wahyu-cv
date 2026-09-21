@@ -1,0 +1,107 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eeeeee;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cv {
+            width: 800px;
+            max-width: 95%;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .kontak {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item h3 {
+            font-size: 17px;
+        }
+
+        .item p {
+            color: #666;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: #eeeeee;
+            padding: 6px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .cv {
+                padding: 25px;
+                margin: 20px auto;
+            }
+
+            header h1 {
+                font-size: 26px;
+            }
+        }
